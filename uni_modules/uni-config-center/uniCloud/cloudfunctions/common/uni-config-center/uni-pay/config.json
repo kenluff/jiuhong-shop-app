@@ -1,0 +1,31 @@
+{
+	"wxConfigMp": {
+		"appId": "wxa0bdc85d08bbd059",
+		"secret": "d0a74c2aaec9960ec1207c1fd160740d",
+		"mchId": "1609424304",
+		"key": "b3dce6c0e074438392f02fb44b0ad180",
+		"notifyUrl":""
+	},
+	"wxConfigApp": {
+		"appId": "",
+		"mchId": "",
+		"key": ""
+	},
+	"wxConfigH5": {
+		"appId": "",
+		"mchId": "",
+		"key": ""
+	},
+	"aliConfigMp": {
+		"mchId": "",
+		"appId": "",
+		"alipayPublicKey": "",
+		"privateKey": ""
+	},
+	"aliConfigApp": {
+		"mchId": "",
+		"appId": "",
+		"alipayPublicKey": "",
+		"privateKey": ""
+	}
+}

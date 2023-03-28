@@ -1,0 +1,56 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"order_number": {
+			"bsonType": "string",
+			"description": "订单编号"
+		},
+		"uid": {
+			"bsonType": "string",
+			"description": "用户UID"
+		},
+		"goods_info": {
+			"bsonType": "object",
+			"description": "商品信息"
+		},
+		"count": {
+			"bsonType": "int",
+			"description": "兑换数量"
+		},
+		"total_score": {
+			"bsonType": "int",
+			"description": "消费积分"
+		},
+		"address": {
+			"bsonType": "object",
+			"description": "收货信息"
+		},
+		"order_status": {
+			"bsonType": "int",
+			"description": "1已支付 2已发货 3已完成 4已取消"
+		},
+		"express_no": {
+			"bsonType": "string",
+			"description": "快递单号"
+		},
+		"express_info": {
+			"bsonType": "object",
+			"description": "快递公司信息"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "订单创建时间"
+		}
+	}
+}

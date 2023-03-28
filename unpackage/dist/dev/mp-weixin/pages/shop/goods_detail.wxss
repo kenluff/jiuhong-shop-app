@@ -1,0 +1,260 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.goods-swiper.data-v-18b4040b {
+  width: 100%;
+  height: 750rpx;
+  position: relative;
+}
+.goods-swiper-con.data-v-18b4040b {
+  width: 100%;
+  height: 100%;
+}
+.goods-swiper .slide.data-v-18b4040b {
+  width: 100%;
+  height: 100%;
+}
+.goods-swiper .slide-count.data-v-18b4040b {
+  padding: 6rpx 24rpx;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 48rpx;
+  display: inline-block;
+  bottom: 40rpx;
+  right: 24rpx;
+  position: absolute;
+}
+.goods-info.data-v-18b4040b {
+  width: 100%;
+  padding: 24rpx;
+  background: #fff;
+}
+.goods-info-title.data-v-18b4040b {
+  width: 100%;
+}
+.goods-info-title .collect-icon.data-v-18b4040b {
+  font-size: 44rpx;
+}
+.goods-info .price.data-v-18b4040b {
+  color: red;
+  font-size: 36rpx;
+}
+.goods-info .old-price.data-v-18b4040b {
+  text-decoration: line-through;
+}
+.goods-info .goods-name.data-v-18b4040b {
+  letter-spacing: 4rpx;
+  width: 90%;
+}
+.goods-simple.data-v-18b4040b {
+  width: 100%;
+  padding: 8rpx 24rpx;
+  background: #fff;
+  margin-top: 24rpx;
+}
+.goods-simple .service.data-v-18b4040b {
+  padding: 16rpx 0;
+}
+.goods-simple .service .title.data-v-18b4040b {
+  width: 96rpx;
+}
+.goods-simple .service .content.data-v-18b4040b {
+  width: 60%;
+  flex: 1;
+}
+.goods-simple .service .content .content-center.data-v-18b4040b {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.goods-simple .service-li.data-v-18b4040b {
+  display: inline-block;
+}
+.goods-recommend.data-v-18b4040b {
+  width: 100%;
+  background: #fff;
+  padding: 24rpx;
+  margin-top: 24rpx;
+}
+.goods-recommend .goods-content.data-v-18b4040b {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+.goods-recommend .goods-item.data-v-18b4040b {
+  width: 220rpx;
+  height: 360rpx;
+  display: inline-block;
+  margin-right: 24rpx;
+}
+.goods-recommend .goods-item-cover.data-v-18b4040b {
+  width: 100%;
+  height: 230rpx;
+  border-radius: 6rpx;
+}
+.goods-recommend .goods-item-name.data-v-18b4040b {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 26rpx;
+}
+.goods-recommend .goods-item .price.data-v-18b4040b {
+  margin-top: 6rpx;
+}
+.goods-recommend .goods-item .old-price.data-v-18b4040b {
+  font-size: 12px;
+  text-decoration: line-through;
+}
+.goods-desc.data-v-18b4040b {
+  width: 100%;
+  background: #fff;
+  padding: 24rpx;
+  margin-top: 24rpx;
+}
+.footer-left .left-icon.data-v-18b4040b {
+  width: 120rpx;
+  height: 80rpx;
+  text-align: center;
+  position: relative;
+}
+.footer-left .left-icon .ri-shopping-cart-2-line.data-v-18b4040b {
+  font-size: 48rpx;
+}
+.footer-left .left-icon .brage.data-v-18b4040b {
+  width: 36rpx;
+  height: 36rpx;
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+  font-size: 12px;
+  right: 16rpx;
+  top: -10rpx;
+  position: absolute;
+  line-height: 36rpx;
+  text-align: center;
+}
+.footer-right.data-v-18b4040b {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 12rpx;
+}
+.footer-right .join-cart.data-v-18b4040b {
+  width: 50%;
+  height: 80rpx;
+  border: none;
+  background: #FF3366;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 0;
+  color: #fff;
+  font-size: 30rpx;
+}
+.footer-right .join-cart .ri-add-line.data-v-18b4040b {
+  position: relative;
+  top: 6rpx;
+}
+.footer-right .join-cart.data-v-18b4040b:first-child {
+  background: #000;
+}
+.popup-service.data-v-18b4040b {
+  width: 100%;
+  height: 800rpx;
+  background: #fff;
+  position: relative;
+}
+.popup-service .ri-close-line.data-v-18b4040b {
+  position: absolute;
+  right: 24rpx;
+  font-size: 48rpx;
+  top: 16rpx;
+}
+.popup-service .title.data-v-18b4040b {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.popup-service .service-con.data-v-18b4040b {
+  width: 100%;
+  padding: 24rpx;
+  height: 680rpx;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.popup-spec.data-v-18b4040b {
+  width: 100%;
+  background: #fff;
+  height: 1000rpx;
+  border-radius: 24rpx 24rpx 0 0;
+  padding: 24rpx;
+}
+.popup-spec .spec-info .cover.data-v-18b4040b {
+  width: 220rpx;
+  height: 220rpx;
+}
+.popup-spec .spec-info .old-price.data-v-18b4040b {
+  text-decoration: line-through;
+}
+.popup-spec-count.data-v-18b4040b {
+  height: 100rpx;
+  width: 100%;
+  align-items: center;
+}
+.popup-spec-content.data-v-18b4040b {
+  width: 100%;
+  height: 460rpx;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.popup-spec-item.data-v-18b4040b {
+  width: 100%;
+  margin-bottom: 16rpx;
+}
+.popup-spec-item .item-ul.data-v-18b4040b {
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 12rpx;
+}
+.popup-spec-item .item-ul-li.data-v-18b4040b {
+  display: inline-block;
+  padding: 6rpx 24rpx;
+  background: #efefef;
+  margin-right: 24rpx;
+  font-size: 28rpx;
+}
+.popup-spec-item .item-ul .active.data-v-18b4040b {
+  background: #000;
+  color: #fff;
+}
+.popup-spec .spec-sure.data-v-18b4040b {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  margin-top: 24rpx;
+}

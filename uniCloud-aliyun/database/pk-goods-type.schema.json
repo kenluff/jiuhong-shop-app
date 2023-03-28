@@ -1,0 +1,40 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string",
+			"description": "名称"
+		},
+		"icon": {
+			"bsonType": "string",
+			"description": "图标"
+		},
+		"rank": {
+			"bsonType": "int",
+			"description": "排序"
+		},
+		"parent_id": {
+			"bsonType": "string",
+			"description": "父级ID",
+			"parentKey": "_id"
+		},
+		"status": {
+			"bsonType": "int",
+			"description": "1显示 0隐藏"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		}
+	}
+}

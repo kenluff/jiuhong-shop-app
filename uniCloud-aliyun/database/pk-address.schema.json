@@ -1,0 +1,56 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string",
+			"description": "姓名"
+		},
+		"mobile": {
+			"bsonType": "string",
+			"description": "电话"
+		},
+		"provice": {
+			"bsonType": "string",
+			"description": "省份"
+		},
+		"city": {
+			"bsonType": "string",
+			"description": "城市"
+		},
+		"area": {
+			"bsonType": "string",
+			"description": "区域"
+		},
+		"address": {
+			"bsonType": "string",
+			"description": "详细地址"
+		},
+		"latlng": {
+			"bsonType": "string",
+			"description": "地址经纬度"
+		},
+		"uid": {
+			"bsonType": "string",
+			"description": "用户id",
+			"foreignKey": "uni-id-user._id"
+		},
+		"is_default": {
+			"bsonType": "int",
+			"description": "1默认地址"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		}
+	}
+}

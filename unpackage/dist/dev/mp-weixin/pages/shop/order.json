@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "usingComponents": {
+    "u-tabs": "../../components/u-tabs",
+    "pay-method": "../../components/pay-method",
+    "refund-reason": "./components/refund-reason"
+  }
+}

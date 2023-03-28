@@ -1,0 +1,37 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"uid": {
+			"bsonType": "string",
+			"description": "用户UID",
+			"foreignKey": "uni-id-users._id"
+		},
+		"coupon_id": {
+			"bsonType": "string",
+			"description": "优惠券id",
+			"foreignKey": "pk-goods-coupon._id"
+		},
+		"coupon_info": {
+			"bsonType": "object",
+			"description": "优惠券信息"
+		},
+		"is_use": {
+			"bsonType": "int",
+			"description": "0未使用 1已使用"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		}
+	}
+}

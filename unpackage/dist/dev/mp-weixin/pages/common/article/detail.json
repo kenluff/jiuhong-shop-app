@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "资讯文章详情",
+  "usingComponents": {
+    "uni-dateformat": "../../../uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "u-parse": "../../../components/u-parse/u-parse"
+  }
+}

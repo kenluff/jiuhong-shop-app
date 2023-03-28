@@ -1,0 +1,1 @@
+<view class="data-v-68a82141"><view class="footer-block data-v-68a82141" style="{{'height:' + a}}"></view><view class="{{['fixed-footer', 'data-v-68a82141', b]}}"><view class="fixed-footer-con data-v-68a82141"><slot></slot></view></view></view>

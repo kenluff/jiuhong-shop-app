@@ -1,0 +1,71 @@
+{
+    "id": "poket-shop",
+    "displayName": "uni-starter",
+    "version": "1.0.7",
+    "description": "基于uniapp+uniCloud开发的完整流程的单商户购物流程体验，目前正处于开发阶段，更多功能正在持续开发中",
+    "keywords": [
+        "商城",
+        "电商小程序",
+        "电商商城",
+        "口袋商城",
+        "商城开发"
+    ],
+    "repository": "https://gitcode.net/dcloud/uni-starter",
+    "engines": {
+        "HBuilderX": "^3.2.6"
+    },
+    "dcloudext": {
+        "category": [
+            "uniCloud",
+            "云端一体项目模板"
+        ]
+    },
+    "uni_modules": {
+        "dependencies": [],
+        "platforms": {
+            "cloud": {
+                "tcb": "y",
+                "aliyun": "y"
+            },
+            "client": {
+                "App": {
+                    "app-vue": "y",
+                    "app-nvue": "u"
+                },
+                "H5-mobile": {
+                    "Safari": "u",
+                    "Android Browser": "u",
+                    "微信浏览器(Android)": "u",
+                    "QQ浏览器(Android)": "u"
+                },
+                "H5-pc": {
+                    "Chrome": "y",
+                    "IE": "n",
+                    "Edge": "u",
+                    "Firefox": "u",
+                    "Safari": "u"
+                },
+                "小程序": {
+                    "微信": "y",
+                    "阿里": "u",
+                    "百度": "u",
+                    "字节跳动": "u",
+                    "QQ": "u"
+                },
+                "快应用": {
+                    "华为": "u",
+                    "联盟": "u"
+                },
+                "Vue": {
+                    "vue2": "y",
+                    "vue3": "y"
+                }
+            }
+        }
+    },
+    "dependencies": {
+        "js-md5": "^0.7.3",
+        "md5-hex": "^4.0.0"
+    },
+    "name": "口袋商城 客户端版"
+}

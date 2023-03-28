@@ -1,0 +1,52 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"type_id": {
+			"bsonType": "string",
+			"description": "分类id",
+			"foreignKey": "pk-article-type._id"
+		},
+		"title": {
+			"bsonType": "string",
+			"description": "标题"
+		},
+		"sub_title": {
+			"bsonType": "array",
+			"description": "副标题"
+		},
+		"cover": {
+			"bsonType": "string",
+			"description": "封面"
+		},
+		"content": {
+			"bsonType": "string",
+			"description": "文章内容"
+		},
+		"view_count": {
+			"bsonType": "int",
+			"description": "浏览量"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		},
+		"update_time": {
+			"bsonType": "timestamp",
+			"description": "修改时间"
+		},
+		"status": {
+			"bsonType": "int",
+			"description": "1显示 0隐藏"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string",
+			"description": "套餐名称"
+		},
+		"price": {
+			"bsonType": "string",
+			"description": "充值金额"
+		},
+		"send_price": {
+			"bsonType": "string",
+			"description": "赠送金额"
+		},
+		"put_away": {
+			"bsonType": "int",
+			"description": "1上架 2下架"
+		},
+		"rank": {
+			"bsonType": "int",
+			"description": "排序"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		}
+	}
+}

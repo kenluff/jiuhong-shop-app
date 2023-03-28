@@ -1,0 +1,11 @@
+{
+  "name": "pk-app-coupon",
+  "dependencies": {
+    "uni-captcha": "file:../../../uni_modules/uni-captcha/uniCloud/cloudfunctions/common/uni-captcha",
+    "uni-config-center": "file:../../../uni_modules/uni-config-center/uniCloud/cloudfunctions/common/uni-config-center",
+    "uni-id": "file:../../../uni_modules/uni-id/uniCloud/cloudfunctions/common/uni-id"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

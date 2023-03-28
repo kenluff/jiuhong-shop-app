@@ -1,0 +1,1 @@
+<view class="short-code-btn data-v-9f2ba562" hover-class="hover" bindtap="{{c}}"><text class="{{['inner-text', 'data-v-9f2ba562', b]}}">{{a}}</text></view>

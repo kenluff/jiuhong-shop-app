@@ -1,0 +1,1 @@
+<view style="padding:12px"><u-parse wx:if="{{a}}" u-i="e10c25d2-0" bind:__l="__l" u-p="{{a}}"></u-parse></view>

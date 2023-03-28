@@ -1,0 +1,131 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shop/index",
+    "pages/shop/type",
+    "pages/shop/list",
+    "pages/shop/cart",
+    "pages/shop/goods_detail",
+    "pages/shop/confirm",
+    "pages/shop/order",
+    "pages/shop/order_detail",
+    "pages/shop/comment",
+    "pages/shop/comment_list",
+    "pages/shop/collect",
+    "pages/shop/coupon",
+    "pages/ucenter/login-page/index/index",
+    "pages/ucenter/ucenter",
+    "pages/ucenter/my_coupon",
+    "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
+    "pages/uni-agree/uni-agree",
+    "pages/ucenter/login-page/pwd-login/pwd-login",
+    "pages/ucenter/login-page/pwd-retrieve/pwd-retrieve",
+    "pages/ucenter/login-page/phone-code/phone-code",
+    "pages/ucenter/login-page/register/register",
+    "uni_modules/uni-feedback/pages/opendb-feedback/opendb-feedback"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/ucenter/set",
+      "pages": [
+        "set",
+        "bind-mobile",
+        "deactivate",
+        "cropImage"
+      ]
+    },
+    {
+      "root": "pages/ucenter/wallet",
+      "pages": [
+        "center",
+        "money-record",
+        "score_record",
+        "set_pay_password",
+        "recharge"
+      ]
+    },
+    {
+      "root": "pages/common",
+      "pages": [
+        "address",
+        "address_edit",
+        "article/list",
+        "article/detail",
+        "webview/webview",
+        "logistics",
+        "agreement"
+      ]
+    },
+    {
+      "root": "pages/marketing",
+      "pages": [
+        "integral/center",
+        "integral/list",
+        "integral/detail",
+        "integral/confirm",
+        "integral/order",
+        "distribution/apply",
+        "distribution/center",
+        "distribution/withdraw",
+        "distribution/withdraw_log",
+        "distribution/order",
+        "distribution/money-record",
+        "distribution/team"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-starter",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#FE8D2B",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/shop/index",
+        "iconPath": "static/tabbar/shop.png",
+        "selectedIconPath": "static/tabbar/shop-active.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/shop/type",
+        "iconPath": "static/tabbar/type.png",
+        "selectedIconPath": "static/tabbar/type-active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/shop/cart",
+        "iconPath": "static/tabbar/cart.png",
+        "selectedIconPath": "static/tabbar/cart-active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/ucenter/ucenter",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "betterScopedSlots": true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "演示在onShow生命周期获取地理位置"
+    }
+  },
+  "usingComponents": {
+    "none-content": "/components/none-content"
+  }
+}

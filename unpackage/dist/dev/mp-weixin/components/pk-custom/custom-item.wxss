@@ -1,0 +1,457 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.pk-swiper.data-v-6812f926 {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.pk-swiper-con.data-v-6812f926 {
+  width: 100%;
+  height: 100%;
+}
+.pk-swiper .swiper-cover.data-v-6812f926 {
+  width: 100%;
+  height: 100%;
+}
+.pk-swiper .swiper-dot.data-v-6812f926 {
+  width: 100%;
+  position: absolute;
+  height: 8px;
+  bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+.pk-swiper .swiper-dot-li.data-v-6812f926 {
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin: 0 5px;
+}
+.pk-swiper .swiper-dot .active.data-v-6812f926 {
+  background: #000;
+}
+.pk-swiper .swiper-dot .cycle.data-v-6812f926 {
+  border-radius: 50%;
+}
+.pk-swiper .swiper-dot .square.data-v-6812f926 {
+  transform: rotate(45deg);
+}
+.pk-gird.data-v-6812f926 {
+  width: 100%;
+  padding: 24rpx;
+  flex-wrap: wrap;
+}
+.pk-gird .gird-item.data-v-6812f926 {
+  width: 25%;
+  height: 180rpx;
+  text-align: center;
+}
+.pk-gird .gird-icon.data-v-6812f926 {
+  width: 100rpx;
+  height: 100rpx;
+}
+.pk-title.data-v-6812f926 {
+  width: 100%;
+  background: #fff;
+}
+.pk-title .title-left.data-v-6812f926 {
+  width: 90%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.pk-title .title-left .title-icon.data-v-6812f926 {
+  width: 20px;
+  height: 20px;
+}
+.pk-title .ri-arrow-right-s-line.data-v-6812f926 {
+  font-size: 16px;
+}
+.pk-blank.data-v-6812f926 {
+  width: 100%;
+}
+.pk-magic.data-v-6812f926 {
+  width: 100%;
+}
+.pk-magic .magic-row.data-v-6812f926 {
+  width: 100%;
+  height: 100%;
+}
+.pk-magic .magic-img.data-v-6812f926 {
+  width: 100%;
+  height: 100%;
+}
+.pk-magic .magic-row2-item.data-v-6812f926 {
+  width: 49%;
+  height: 100%;
+}
+.pk-magic .magic-row3-item.data-v-6812f926 {
+  width: 32%;
+  height: 100%;
+}
+.pk-magic .magic-row4-item.data-v-6812f926 {
+  width: 24%;
+  height: 100%;
+}
+.pk-magic .magic-row5.data-v-6812f926 {
+  flex-wrap: wrap;
+}
+.pk-magic .magic-row5-item.data-v-6812f926 {
+  width: 49%;
+  height: 49%;
+  margin-bottom: 12rpx;
+}
+.pk-magic .magic-row6-item.data-v-6812f926 {
+  width: 49%;
+  height: 100%;
+}
+.pk-magic .magic-row6-right.data-v-6812f926 {
+  width: 49%;
+  height: 100%;
+}
+.pk-magic .magic-row6-right-item.data-v-6812f926 {
+  width: 100%;
+  height: 48%;
+}
+.pk-magic .magic-row6-right-item.data-v-6812f926:first-child {
+  margin-bottom: 4%;
+}
+.pk-magic .magic-row8-top.data-v-6812f926 {
+  width: 100%;
+  height: 48%;
+  margin-bottom: 2%;
+}
+.pk-magic .magic-row8-btm.data-v-6812f926 {
+  width: 100%;
+  height: 50%;
+}
+.pk-magic .magic-row8-btm-item.data-v-6812f926 {
+  width: 49%;
+  height: 100%;
+}
+.pk-magic .magic-row9-top.data-v-6812f926 {
+  width: 100%;
+  height: 48%;
+}
+.pk-magic .magic-row9-btm.data-v-6812f926 {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 2%;
+}
+.pk-magic .magic-row9-btm-item.data-v-6812f926 {
+  width: 49%;
+  height: 100%;
+}
+.pk-magic .magic-row10-item.data-v-6812f926 {
+  width: 49%;
+  height: 100%;
+}
+.pk-magic .magic-row10-right.data-v-6812f926 {
+  width: 50%;
+  height: 100%;
+}
+.pk-magic .magic-row10-right-top.data-v-6812f926 {
+  width: 100%;
+  height: 48%;
+  margin-bottom: 2%;
+}
+.pk-magic .magic-row10-right-btm.data-v-6812f926 {
+  width: 100%;
+  height: 50%;
+}
+.pk-magic .magic-row10-right-btm-item.data-v-6812f926 {
+  width: 49%;
+  height: 100%;
+}
+.pk-line.data-v-6812f926 {
+  width: 100%;
+}
+.pk-article.data-v-6812f926 {
+  width: 100%;
+  padding: 24rpx;
+}
+.pk-article .article-item.data-v-6812f926 {
+  width: 100%;
+  padding: 24rpx;
+  background: #fff;
+  border-radius: 12rpx;
+  margin-bottom: 24rpx;
+}
+.pk-article .article-item.data-v-6812f926:last-child {
+  margin-bottom: 0 !important;
+}
+.pk-article .article-item .cover.data-v-6812f926 {
+  width: 180rpx;
+  height: 180rpx;
+  margin-right: 12rpx;
+  border-radius: 12rpx;
+}
+.pk-article .article-item-right.data-v-6812f926 {
+  flex: 1;
+  width: 60%;
+  position: relative;
+}
+.pk-article .article-item .time.data-v-6812f926 {
+  position: absolute;
+  width: 100%;
+  bottom: 24rpx;
+}
+.pk-video.data-v-6812f926 {
+  width: 100%;
+  height: 450rpx;
+}
+.pk-video .video-con.data-v-6812f926 {
+  width: 100%;
+  height: 100%;
+}
+.pk-goods.data-v-6812f926 {
+  width: 100%;
+  padding: 24rpx;
+}
+.pk-goods .price.data-v-6812f926 {
+  color: #FF3333;
+}
+.pk-goods .goods-row1.data-v-6812f926 {
+  width: 100%;
+}
+.pk-goods .goods-row1-item.data-v-6812f926 {
+  width: 100%;
+  padding: 24rpx;
+  border-radius: 24rpx;
+  background: #fff;
+  margin-bottom: 24rpx;
+}
+.pk-goods .goods-row1-item.data-v-6812f926:last-child {
+  margin-bottom: 0;
+}
+.pk-goods .goods-row1-item .cover.data-v-6812f926 {
+  width: 180rpx;
+  height: 180rpx;
+  margin-right: 24rpx;
+  border-radius: 12rpx;
+}
+.pk-goods .goods-row1-item-right.data-v-6812f926 {
+  width: 60%;
+  flex: 1;
+  position: relative;
+}
+.pk-goods .goods-row1-item .item-btn.data-v-6812f926 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.pk-goods .goods-row1-item .item-btn .pay-btn.data-v-6812f926 {
+  padding: 10rpx 24rpx;
+  background: #FF3333;
+  color: #fff;
+  border-radius: 64rpx;
+}
+.pk-goods .goods-row2.data-v-6812f926 {
+  width: 100%;
+  flex-wrap: wrap;
+}
+.pk-goods .goods-row2-item.data-v-6812f926 {
+  width: 49%;
+  height: 480rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 16rpx;
+}
+.pk-goods .goods-row2-item .cover.data-v-6812f926 {
+  width: 100%;
+  height: 360rpx;
+  border-radius: 16rpx 16rpx 0 0;
+}
+.pk-goods .goods-row2-item .name.data-v-6812f926 {
+  padding: 0 6rpx;
+}
+.pk-goods .goods-row2-item .goods-btm.data-v-6812f926 {
+  padding: 0 12rpx 0 0;
+  margin-top: 12rpx;
+}
+.pk-goods .goods-row2-item .cart-btn.data-v-6812f926 {
+  width: 48rpx;
+  height: 48rpx;
+  text-align: center;
+  background: #FF3333;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 48rpx;
+}
+.pk-goods .goods-row3.data-v-6812f926 {
+  width: 100%;
+  flex-wrap: wrap;
+}
+.pk-goods .goods-row3.data-v-6812f926::after {
+  content: "";
+  width: 32%;
+}
+.pk-goods .goods-row3-item.data-v-6812f926 {
+  width: 32%;
+  height: 360rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 16rpx;
+}
+.pk-goods .goods-row3-item .cover.data-v-6812f926 {
+  width: 100%;
+  height: 234rpx;
+  border-radius: 16rpx 16rpx 0 0;
+}
+.pk-goods .goods-row3-item .name.data-v-6812f926 {
+  padding: 0 6rpx;
+}
+.pk-goods .goods-row3-item .goods-btm.data-v-6812f926 {
+  padding: 0 12rpx 0 0;
+  margin-top: 12rpx;
+}
+.pk-goods .goods-row3-item .cart-btn.data-v-6812f926 {
+  width: 48rpx;
+  height: 48rpx;
+  text-align: center;
+  background: #FF3333;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 48rpx;
+}
+.pk-coupon.data-v-6812f926 {
+  width: 100%;
+  padding: 24rpx;
+}
+.pk-coupon .coupon-row1.data-v-6812f926 {
+  width: 100%;
+}
+.pk-coupon .coupon-row1-item.data-v-6812f926 {
+  width: 100%;
+  background: #fff;
+  border-radius: 12rpx;
+  align-items: center;
+  height: 160rpx;
+  margin-bottom: 24rpx;
+  position: relative;
+}
+.pk-coupon .coupon-row1-item.data-v-6812f926:last-child {
+  margin-bottom: 0;
+}
+.pk-coupon .coupon-row1-item .item-left.data-v-6812f926 {
+  width: 100px;
+  text-align: center;
+  border-right: 1px dashed #ccc;
+}
+.pk-coupon .coupon-row1-item .item-left .price.data-v-6812f926 {
+  color: #FF3333;
+}
+.pk-coupon .coupon-row1-item .item-left .price-txt.data-v-6812f926 {
+  font-size: 20px;
+}
+.pk-coupon .coupon-row1-item .item-center.data-v-6812f926 {
+  flex: 1;
+  width: 60%;
+}
+.pk-coupon .coupon-row1-item .item-right.data-v-6812f926 {
+  width: 40px;
+  height: 100%;
+  display: table;
+  text-align: center;
+  padding: 10px 0px;
+  background: #FF3333;
+  color: #fff;
+  border-radius: 0 12rpx 12rpx 0;
+}
+.pk-coupon .coupon-row1-item .item-right .get.data-v-6812f926 {
+  display: table-footer-group;
+  vertical-align: middle;
+}
+.pk-coupon .coupon-row1-item .item-right .geted.data-v-6812f926 {
+  vertical-align: middle;
+}
+.pk-coupon .coupon-row1-item .cycle.data-v-6812f926 {
+  width: 20rpx;
+  height: 100%;
+  position: absolute;
+  right: 35px;
+  top: -10rpx;
+}
+.pk-coupon .coupon-row1-item .cycle-li.data-v-6812f926 {
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  background: #f4f4f4;
+  margin-bottom: 6rpx;
+}
+.pk-coupon .coupon-row2.data-v-6812f926 {
+  width: 100%;
+  flex-wrap: wrap;
+}
+.pk-coupon .coupon-row2-item.data-v-6812f926 {
+  width: 48%;
+  height: 300rpx;
+  background: #FF3333;
+  padding: 24rpx 0;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  margin-bottom: 24rpx;
+}
+.pk-coupon .coupon-row2-item.data-v-6812f926:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.pk-coupon .coupon-row2-item.data-v-6812f926:nth-last-child(2) {
+  margin-bottom: 0;
+}
+.pk-coupon .coupon-row2 .price-txt.data-v-6812f926 {
+  font-size: 20px;
+}
+.pk-coupon .coupon-row2 .get-btn.data-v-6812f926 {
+  position: absolute;
+  width: 60%;
+  margin-left: 20%;
+  height: 64rpx;
+  line-height: 64rpx;
+  background: #fff;
+  border-radius: 64rpx;
+  text-align: center;
+  bottom: 24rpx;
+  color: #FF3333;
+}
+.pk-coupon .coupon-row2 .cycle.data-v-6812f926 {
+  width: 20rpx;
+  height: 100%;
+  top: 0;
+  position: absolute;
+}
+.pk-coupon .coupon-row2 .cycle-li.data-v-6812f926 {
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  margin-bottom: 12rpx;
+}
+.pk-coupon .coupon-row2 .cycle-left.data-v-6812f926 {
+  left: -10rpx;
+}
+.pk-coupon .coupon-row2 .cycle-right.data-v-6812f926 {
+  right: -10rpx;
+}

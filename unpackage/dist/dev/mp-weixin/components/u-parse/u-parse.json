@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "node-item": "../node-item/node-item"
+  }
+}

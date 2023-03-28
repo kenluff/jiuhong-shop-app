@@ -1,0 +1,162 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"order_number": {
+			"bsonType": "string",
+			"description": "订单编号"
+		},
+		"uid": {
+			"bsonType": "string",
+			"description": "用户UID",
+			"foreignKey": "uni-id-users._id"
+		},
+		"total_price": {
+			"bsonType": "string",
+			"description": "订单总价"
+		},
+		"goods_detail": {
+			"bsonType": "array",
+			"description": "商品信息"
+		},
+		"order_status": {
+			"bsonType": "int",
+			"description": "0未支付 1已支付 2已发货 3已完成 4已取消 5申请退款 6已退款"
+		},
+		"is_pay": {
+			"bsonType": "int",
+			"description": "0未支付 1已支付"
+		},
+		"pay_time": {
+			"bsonType": "timestamp",
+			"description": "支付时间"
+		},
+		"is_send": {
+			"bsonType": "int",
+			"description": "0未发货 1已发货"
+		},
+		"send_time": {
+			"bsonType": "timestamp",
+			"description": "发货时间"
+		},
+		"is_confirm": {
+			"bsonType": "int",
+			"description": "0未完成 1已完成"
+		},
+		"confirm_time": {
+			"bsonType": "timestamp",
+			"description": "完成时间"
+		},
+		"is_cancel": {
+			"bsonType": "int",
+			"description": "0未取消 1已取消"
+		},
+		"cancel_time": {
+			"bsonType": "timestamp",
+			"description": "取消时间"
+		},
+		"is_refund": {
+			"bsonType": "int",
+			"description": "0未退款 1申请退款 2已退款"
+		},
+		"refund_time": {
+			"bsonType": "timestamp",
+			"description": "退款时间"
+		},
+		"refund_reason": {
+			"bsonType": "string",
+			"description": "退款原因说明"
+		},
+		"refuse_refund_reason": {
+			"bsonType": "string",
+			"description": "拒绝退款原因说明"
+		},
+		"true_price": {
+			"bsonType": "string",
+			"description": "实际支付金额"
+		},
+		"pay_method": {
+			"bsonType": "string",
+			"description": "支付方式 wx_mini_pay微信小程序"
+		},
+		"remark": {
+			"bsonType": "string",
+			"description": "备注"
+		},
+		"manager_remark": {
+			"bsonType": "string",
+			"description": "商家备注"
+		},
+		"express_no": {
+			"bsonType": "string",
+			"description": "快递单号"
+		},
+		"express_info": {
+			"bsonType": "object",
+			"description": "快递公司信息"
+		},
+		"address": {
+			"bsonType": "object",
+			"description": "收货地址信息"
+		},
+		"is_comment": {
+			"bsonType": "int",
+			"description": "0未评价 1已评价"
+		},
+		"manager_discount": {
+			"bsonType": "int",
+			"description": "卖家优惠金额"
+		},
+		"uniontid": {
+			"bsonType": "string",
+			"description": "商户支付单号"
+		},
+		"is_dis_order": {
+			"bsonType": "int",
+			"description": "是否为分销订单 1是 0否",
+			"defaultValue": 0
+		},
+		"dis_grant": {
+			"bsonType": "string",
+			"description": "分销金额是否结算 0未结算 1已结算"
+		},
+		"one_price": {
+			"bsonType": "object",
+			"description": "一级分销信息",
+			"properties": {
+				"uid": {
+					"bsonType": "string",
+					"description": "一级分销uid"
+				},
+				"money": {
+					"bsonType": "string",
+					"description": "一级分销金额"
+				}
+			}
+		},
+		"two_price": {
+			"bsonType": "object",
+			"description": "二级分销信息",
+			"properties": {
+				"uid": {
+					"bsonType": "string",
+					"description": "一级分销uid"
+				},
+				"money": {
+					"bsonType": "string",
+					"description": "一级分销金额"
+				}
+			}
+		}
+	}
+}

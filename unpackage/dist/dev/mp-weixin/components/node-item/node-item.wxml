@@ -1,0 +1,33 @@
+<wxs module="handler">
+
+var inlineTags = {
+  abbr: true,
+  b: true,
+  big: true,
+  code: true,
+  del: true,
+  em: true,
+  i: true,
+  ins: true,
+  label: true,
+  q: true,
+  small: true,
+  span: true,
+  strong: true,
+  sub: true,
+  sup: true
+}
+/**
+ * @description 是否使用 rich-text 显示剩余内容
+ */
+module.exports = {
+  use: function (item) {
+  // 微信和 QQ 的 rich-text inline 布局无效
+  if (inlineTags[item.name] || (item.attrs.style || '').indexOf('display:inline') != -1)
+    return false
+  return !item.c
+  }
+}
+
+</wxs>
+<view class="data-v-67454e78"><view id="{{b}}" class="{{['data-v-67454e78', c]}}" style="{{d}}"><block wx:for="{{a}}" wx:for-item="n" wx:key="ah"><image wx:if="{{n.a}}" class="_img data-v-67454e78" style="{{n.b}}" src="{{n.c}}" mode="widthFix"/><image wx:if="{{n.d}}" id="{{n.e}}" class="{{['data-v-67454e78', n.f]}}" style="{{n.g}}" src="{{n.h}}" mode="{{n.i}}" lazy-load="{{n.j}}" webp="{{n.k}}" show-menu-by-longpress="{{n.l}}" image-menu-prevent="{{n.m}}" data-i="{{n.n}}" bindload="{{n.o}}" binderror="{{n.p}}" catchtap="{{n.q}}" bindlongpress="{{n.r}}"/><text wx:elif="{{n.s}}" class="data-v-67454e78" decode>{{n.t}}</text><text wx:elif="{{n.v}}" class="data-v-67454e78">\n</text><view wx:elif="{{n.w}}" id="{{n.z}}" class="{{['data-v-67454e78', n.A]}}" hover-class="_hover" style="{{n.B}}" data-i="{{n.C}}" catchtap="{{n.D}}"><node-item wx:if="{{n.y}}" class="data-v-67454e78" style="display:inherit" u-i="{{n.x}}" bind:__l="__l" u-p="{{n.y}}"/></view><video wx:elif="{{n.E}}" id="{{n.F}}" class="{{['data-v-67454e78', n.G]}}" style="{{n.H}}" autoplay="{{n.I}}" controls="{{n.J}}" loop="{{n.K}}" muted="{{n.L}}" poster="{{n.M}}" src="{{n.N}}" data-i="{{n.O}}" bindplay="{{n.P}}" binderror="{{n.Q}}"/><view wx:elif="{{n.R}}" id="{{n.W}}" class="{{['data-v-67454e78', n.X]}}" style="{{n.Y}}"><node-item wx:if="{{n.S}}" class="data-v-67454e78" u-i="{{n.T}}" bind:__l="__l" u-p="{{n.U}}"/><block wx:else><view wx:for="{{n.V}}" wx:for-item="tbody" wx:key="e" class="{{['data-v-67454e78', tbody.f]}}" style="{{tbody.g}}"><node-item wx:if="{{tbody.a}}" class="data-v-67454e78" u-i="{{tbody.b}}" bind:__l="__l" u-p="{{tbody.c}}"/><block wx:else><block wx:for="{{tbody.d}}" wx:for-item="tr" wx:key="i"><view wx:if="{{tr.a}}" class="{{['data-v-67454e78', tr.d]}}" style="{{tr.e}}"><node-item wx:if="{{tr.c}}" class="data-v-67454e78" u-i="{{tr.b}}" bind:__l="__l" u-p="{{tr.c}}"/></view><view wx:else class="{{['data-v-67454e78', tr.g]}}" style="{{tr.h}}"><view wx:for="{{tr.f}}" wx:for-item="td" wx:key="c" class="{{['data-v-67454e78', td.d]}}" style="{{td.e}}"><node-item wx:if="{{td.b}}" class="data-v-67454e78" u-i="{{td.a}}" bind:__l="__l" u-p="{{td.b}}"/></view></view></block></block></view></block></view><view wx:elif="{{n.Z}}" id="{{n.ab}}" class="{{['data-v-67454e78', n.ac]}}" style="{{n.ad}}"><node-item wx:for="{{n.aa}}" wx:for-item="n2" wx:key="a" class="data-v-67454e78" style="{{n2.b}}" u-i="{{n2.c}}" bind:__l="__l" u-p="{{n2.d}}"/></view><node-item wx:else class="data-v-67454e78" style="{{n.ae}}" u-i="{{n.af}}" bind:__l="__l" u-p="{{n.ag||''}}"/></block></view></view>

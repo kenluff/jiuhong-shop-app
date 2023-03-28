@@ -1,0 +1,35 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string",
+			"description": "快递公司名称"
+		},
+		"code": {
+			"bsonType": "string",
+			"description": "快递公司编码"
+		},
+		"business_code": {
+			"bsonType": "string",
+			"description": "商家编码"
+		},
+		"phone": {
+			"bsonType": "string",
+			"description": "快递公司客服电话"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		}
+	}
+}

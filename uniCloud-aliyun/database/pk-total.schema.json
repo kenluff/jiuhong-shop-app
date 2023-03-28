@@ -1,0 +1,35 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"time": {
+			"bsonType": "string",
+			"description": "日期"
+		},
+		"order": {
+			"bsonType": "int",
+			"description": "订单量"
+		},
+		"pay_order": {
+			"bsonType": "int",
+			"description": "支付订单数"
+		},
+		"trade": {
+			"bsonType": "int",
+			"description": "交易金额（分）"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "日期时间戳"
+		}
+	}
+}

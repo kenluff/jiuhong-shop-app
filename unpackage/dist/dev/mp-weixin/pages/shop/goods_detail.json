@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "pk-share": "../../components/pk-share",
+    "u-parse": "../../components/u-parse/u-parse",
+    "fix-footer": "../../components/fix-footer",
+    "comment-item": "./components/comment-item",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-number-box": "../../uni_modules/uni-number-box/components/uni-number-box/uni-number-box"
+  }
+}

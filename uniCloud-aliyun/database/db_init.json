@@ -1,0 +1,15 @@
+// 在本文件中可配置云数据库初始化，数据格式见：https://uniapp.dcloud.io/uniCloud/hellodb?id=db-init
+
+// 编写完毕后对本文件点右键，可按配置规则创建表和添加数据
+
+{
+	"opendb-admin-menus": {
+		"data": [
+			{"parent_id":"pk-market","permission":[],"enable":true,"menu_id":"pk-market-distribution","name":"分销管理","icon":"","url":"","sort":7,"create_date":1655099367828},
+			{"parent_id":"pk-market-distribution","permission":[],"enable":true,"menu_id":"pk-market-distribution-set","name":"设置","icon":"","url":"/pages/market/distribution/set","sort":99,"create_date":1655099399107},
+			{"parent_id":"pk-market-distribution","permission":[],"enable":true,"menu_id":"pk-market-distribution-audit","name":"分销商审核","icon":"","url":"/pages/market/distribution/audit","sort":3,"create_date":1655187459187},
+			{"parent_id":"pk-market-distribution","permission":[],"enable":true,"menu_id":"pk-market-distribution-list","name":"分销商管理","icon":"","url":"/pages/market/distribution/list","sort":1,"create_date":1655187487726},
+			{"parent_id":"pk-market-distribution","permission":[],"enable":true,"menu_id":"pk-market-distribution-withdraw","name":"提现申请","icon":"","url":"/pages/market/distribution/withdraw","sort":11,"create_date":1655367658999}
+		]
+	}
+}

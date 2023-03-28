@@ -1,0 +1,35 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"uid": {
+			"bsonType": "string",
+			"description": "用户UID"
+		},
+		"remark": {
+			"bsonType": "string",
+			"description": "说明"
+		},
+		"type": {
+			"bsonType": "int",
+			"description": "操作类型 1增加 2减少"
+		},
+		"count": {
+			"bsonType": "string",
+			"description": "操作金额数量"
+		},
+		"create_time": {
+			"bsonType": "string",
+			"description": "创建时间"
+		}
+	}
+}

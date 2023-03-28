@@ -1,0 +1,51 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string",
+			"description": "优惠券名称"
+		},
+		"low_price": {
+			"bsonType": "string",
+			"description": "最低消费金额"
+		},
+		"coupon_price": {
+			"bsonType": "string",
+			"description": "优惠金额"
+		},
+		"count": {
+			"bsonType": "int",
+			"description": "优惠数量"
+		},
+		"receive_count": {
+			"bsonType": "int",
+			"description": "领取数量"
+		},
+		"start_time": {
+			"bsonType": "timestamp",
+			"description": "开始时间"
+		},
+		"end_time": {
+			"bsonType": "timestamp",
+			"description": "结束时间"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		},
+		"status": {
+			"bsonType": "int",
+			"description": "0禁用 1启用"
+		}
+	}
+}

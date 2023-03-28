@@ -1,0 +1,35 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"title": {
+			"bsonType": "string",
+			"description": "页面标题"
+		},
+		"value": {
+			"bsonType": "array",
+			"description": "页面组件"
+		},
+		"is_default": {
+			"bsonType": "int",
+			"description": "是否默认 1是 0否"
+		},
+		"type": {
+			"bsonType": "string",
+			"description": "页面类型 home(首页)"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		}
+	}
+}

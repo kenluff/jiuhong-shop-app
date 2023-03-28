@@ -1,0 +1,80 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"uid": {
+			"bsonType": "string",
+			"description": "用户uid"
+		},
+		"status": {
+			"bsonType": "int",
+			"description": "0待审核 1s审核通过 2已驳回申请"
+		},
+		"reject_reason": {
+			"bsonType": "string",
+			"description": "驳回理由"
+		},
+		"username": {
+			"bsonType": "string",
+			"description": "真实姓名"
+		},
+		"mobile": {
+			"bsonType": "string",
+			"description": "电话号码"
+		},
+		"one_user": {
+			"bsonType": "string",
+			"description": "一级"
+		},
+		"two_user": {
+			"bsonType": "string",
+			"description": "二级"
+		},
+		"money": {
+			"bsonType": "int",
+			"description": "余额",
+			"defaultValue": 0
+		},
+		"total_money": {
+			"bsonType": "int",
+			"description": "总金额",
+			"defaultValue": 0
+		},
+		"frozen_money": {
+			"bsonType": "int",
+			"description": "冻结金额",
+			"defaultValue": 0
+		},
+		"share_code": {
+			"bsonType": "string",
+			"description": "分销邀请码"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "申请时间"
+		},
+		"check_time": {
+			"bsonType": "timestamp",
+			"description": "审核时间"
+		},
+		"total_order": {
+			"bsonType": "int",
+			"description": "累计订单数",
+			"defaultValue": 0
+		},
+		"total_user": {
+			"bsonType": "int",
+			"description": "累计下线人数",
+			"defaultValue": 0
+		}
+	}
+}

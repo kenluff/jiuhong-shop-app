@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "custom-item": "../../components/pk-custom/custom-item"
+  }
+}

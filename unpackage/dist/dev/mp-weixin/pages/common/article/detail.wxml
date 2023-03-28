@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="article-detail"><view class="article-title f16 fw">{{b}}</view><view class="flex-sb mt12 gy f12"><uni-dateformat wx:if="{{c}}" u-i="76fa6666-0" bind:__l="__l" u-p="{{c}}"></uni-dateformat><text>{{d}}人浏览</text></view><view class="mt12"><u-parse wx:if="{{e}}" u-i="76fa6666-1" bind:__l="__l" u-p="{{e}}"></u-parse></view></view>

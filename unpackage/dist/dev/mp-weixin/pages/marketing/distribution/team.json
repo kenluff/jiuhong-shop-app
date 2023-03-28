@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "分销下线",
+  "usingComponents": {
+    "u-tabs": "../../../components/u-tabs",
+    "uni-dateformat": "../../../uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat"
+  }
+}

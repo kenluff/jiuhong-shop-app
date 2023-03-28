@@ -1,0 +1,1 @@
+<view class="comment_list data-v-5b5f2ab7"><comment-item wx:for="{{a}}" wx:for-item="item" wx:key="a" class="data-v-5b5f2ab7" u-i="{{item.b}}" bind:__l="__l" u-p="{{item.c}}"></comment-item></view>

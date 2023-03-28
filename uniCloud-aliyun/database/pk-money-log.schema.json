@@ -1,0 +1,36 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"uid": {
+			"bsonType": "string",
+			"description": "用户uid",
+			"foreignKey": "uni-id-users._id"
+		},
+		"remark": {
+			"bsonType": "string",
+			"description": "备注说明"
+		},
+		"type": {
+			"bsonType": "int",
+			"description": "1加 2减"
+		},
+		"count": {
+			"bsonType": "int",
+			"description": "操作数量"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "操作时间"
+		}
+	}
+}

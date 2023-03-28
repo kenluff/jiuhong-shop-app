@@ -1,0 +1,7 @@
+{
+  "name": "pk-app-util",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

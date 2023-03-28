@@ -1,0 +1,35 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"url": {
+			"bsonType": "string",
+			"description": "图片地址"
+		},
+		"rank": {
+			"bsonType": "int",
+			"description": "排序"
+		},
+		"status": {
+			"bsonType": "int",
+			"description": "1显示 0 隐藏"
+		},
+		"jump_path": {
+			"bsonType": "string",
+			"description": "跳转地址"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		}
+	}
+}

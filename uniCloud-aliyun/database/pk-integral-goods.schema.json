@@ -1,0 +1,75 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string",
+			"description": "积分商品名称"
+		},
+		"simple_desc": {
+			"bsonType": "string",
+			"description": "积分商品简介"
+		},
+		"score": {
+			"bsonType": "int",
+			"description": "消耗积分"
+		},
+		"old_price": {
+			"bsonType": "string",
+			"description": "商品原价"
+		},
+		"put_away": {
+			"bsonType": "int",
+			"description": "1上架 0下架"
+		},
+		"cover": {
+			"bsonType": "string",
+			"description": "商品封面"
+		},
+		"slide": {
+			"bsonType": "array",
+			"description": "轮播图"
+		},
+		"count": {
+			"bsonType": "int",
+			"description": "库存"
+		},
+		"sale_count": {
+			"bsonType": "int",
+			"description": "销量"
+		},
+		"virtual_sales": {
+			"bsonType": "int",
+			"description": "虚拟销量"
+		},
+		"type": {
+			"bsonType": "int",
+			"description": "1实物商品 2优惠券"
+		},
+		"coupon_info": {
+			"bsonType": "object",
+			"description": "优惠券信息"
+		},
+		"detail": {
+			"bsonType": "string",
+			"description": "商品详情"
+		},
+		"rank": {
+			"bsonType": "int",
+			"description": "排序"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		}
+	}
+}

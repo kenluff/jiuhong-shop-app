@@ -1,0 +1,113 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string",
+			"description": "商品名称"
+		},
+		"simple_desc": {
+			"bsonType": "string",
+			"description": "商品简单描述"
+		},
+		"cover": {
+			"bsonType": "string",
+			"description": "商品封面"
+		},
+		"slide": {
+			"bsonType": "array",
+			"description": "商品轮播图"
+		},
+		"type_id": {
+			"bsonType": "int",
+			"description": "分类id",
+			"foreignKey": "pk-goods-type._id"
+		},
+		"price": {
+			"bsonType": "string",
+			"description": "商品价格"
+		},
+		"final_price": {
+			"bsonType": "int",
+			"description": "商品价格（分）"
+		},
+		"old_price": {
+			"bsonType": "string",
+			"description": "商品原价"
+		},
+		"stock": {
+			"bsonType": "int",
+			"description": "库存"
+		},
+		"sale_count": {
+			"bsonType": "int",
+			"description": "销量"
+		},
+		"goods_detail": {
+			"bsonType": "string",
+			"description": "商品详情"
+		},
+		"put_away": {
+			"bsonType": "int",
+			"description": "1上架 0下架"
+		},
+		"is_open_sku": {
+			"bsonType": "int",
+			"description": "1对规格 0无规格"
+		},
+		"spec": {
+			"bsonType": "array",
+			"description": "商品规格"
+		},
+		"sku": {
+			"bsonType": "array",
+			"description": "商品sku"
+		},
+		"service_id": {
+			"bsonType": "array",
+			"description": "商品服务",
+			"foreignKey": "pk-goods-service._id"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "创建时间"
+		},
+		"rank": {
+			"bsonType": "int",
+			"description": "排序"
+		},
+		"is_recommend": {
+			"bsonType": "int",
+			"description": "是否推荐 1推荐 0不推荐"
+		},
+		"is_open_distribution": {
+			"bsonType": "int",
+			"description": "是否开启分销 1开启 0 关闭",
+			"defaultValue": 0
+		},
+		"commission_type": {
+			"bsonType": "int",
+			"description": "佣金发放方式 2支付金额百分比 1固定金额",
+			"defaultValue": 1
+		},
+		"one_commission": {
+			"bsonType": "string",
+			"description": "一级分销佣金",
+			"defaultValue": "0"
+		},
+		"two_commission": {
+			"bsonType": "string",
+			"description": "二级分销佣金",
+			"defaultValue": "0"
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"order_id": {
+			"bsonType": "string",
+			"description": "订单ID",
+			"foreignKey": "pk-order._id"
+		},
+		"goods_id": {
+			"bsonType": "string",
+			"description": "商品id",
+			"foreignKey": "pk-goods._id"
+		},
+		"uid": {
+			"bsonType": "string",
+			"description": "用户UID",
+			"foreignKey": "uni-id-users._id"
+		},
+		"user": {
+			"bsonType": "object",
+			"description": "用户信息"
+		},
+		"score": {
+			"bsonType": "int",
+			"description": "评分"
+		},
+		"content": {
+			"bsonType": "string",
+			"description": "评价内容"
+		},
+		"images": {
+			"bsonType": "array",
+			"description": "评论图片"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "评价时间"
+		}
+	}
+}

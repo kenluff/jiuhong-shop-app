@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "提现明细",
+  "usingComponents": {
+    "uni-dateformat": "../../../uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat"
+  }
+}

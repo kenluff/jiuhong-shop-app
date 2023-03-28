@@ -1,0 +1,60 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"uid": {
+			"bsonType": "string",
+			"description": "用户UId"
+		},
+		"order_number": {
+			"bsonType": "string",
+			"description": "充值订单号"
+		},
+		"price": {
+			"bsonType": "string",
+			"description": "充值金额"
+		},
+		"send_price": {
+			"bsonType": "string",
+			"description": "赠送金额"
+		},
+		"meal_id": {
+			"bsonType": "string",
+			"description": "充值套餐id",
+			"foreignKey": "pk-recharge-meal._id"
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"description": "下单时间"
+		},
+		"order_status": {
+			"bsonType": "int",
+			"description": "0未支付 1已支付"
+		},
+		"pay_time": {
+			"bsonType": "timestamp",
+			"description": "支付时间"
+		},
+		"total_fee": {
+			"bsonType": "string",
+			"description": "实际支付金额"
+		},
+		"uniontid": {
+			"bsonType": "string",
+			"description": "商户支付单号"
+		},
+		"pay_method": {
+			"bsonType": "string",
+			"description": "支付方式 wx_mini_pay微信小程序"
+		}
+	}
+}

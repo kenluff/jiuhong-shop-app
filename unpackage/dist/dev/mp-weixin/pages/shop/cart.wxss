@@ -1,0 +1,113 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.cart-item {
+  width: 100%;
+  background: #fff;
+  padding: 24rpx;
+  align-items: center;
+}
+.cart-item .goods {
+  flex: 1;
+  margin-left: 24rpx;
+}
+.cart-item .goods-right {
+  margin-left: 24rpx;
+  width: 400rpx;
+  flex: 1;
+}
+.cart-item .put-away {
+  display: inline-block;
+  font-size: 12px;
+  background: #eee;
+  padding: 2rpx 6rpx;
+  color: #999;
+}
+.cart-item .name {
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  flex: 1;
+  margin-left: 6rpx;
+}
+.cart-item .price {
+  color: #FF0033;
+}
+.cart-item .cover {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 12rpx;
+}
+.delete-con {
+  width: 200rpx;
+  height: 100%;
+  background: #FF0033;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-left: 2rpx;
+}
+.cart-item-disable {
+  background: #ececec;
+}
+.footer-con {
+  width: 100%;
+  height: 120rpx;
+  background: #fff;
+  position: fixed;
+  padding: 0 24rpx;
+  align-items: center;
+  bottom: 0;
+}
+.footer-con-btn {
+  padding: 16rpx 48rpx;
+  background: #FF3366;
+  border-radius: 80rpx;
+  color: #fff;
+}
+.footer-con .total {
+  color: #FF0033;
+}
+.login-btn {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 240rpx;
+}
+.login-btn .to-btn {
+  width: 220rpx;
+  background: #FF3366;
+  text-align: center;
+  height: 64rpx;
+  border-radius: 64rpx;
+  color: #fff;
+  line-height: 56rpx;
+}
+.login-btn .to-btn .ri-arrow-right-line {
+  position: relative;
+  top: 4rpx;
+}
